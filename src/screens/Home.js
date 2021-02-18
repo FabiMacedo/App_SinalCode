@@ -62,7 +62,6 @@ const styles = StyleSheet.create({
   },
 
   btnIco: {
-    backgroundColor: '#fe6e15',
     alignSelf: 'flex-start',
     borderRadius: 5,
     marginTop: 30,
@@ -101,19 +100,17 @@ const styles = StyleSheet.create({
     color: '#000',
     fontSize: 16,
     fontWeight: '500',
-    textAlign: 'center',
+    textAlign: 'justify',
     marginTop: 10,
-    marginLeft: 20,
-    marginRight: 20,
+    marginLeft: 30,
+    marginRight: 30,
   },
 
   footer: {
-   /*  marginTop: 20, */
-    backgroundColor: '#fe6e15',
+    marginTop: 40,
     fontWeight: '500',
-    paddingLeft: 40,
-    paddingRight: 40,
     alignItems: 'center',
   },
+
 });
 
