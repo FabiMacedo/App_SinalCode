@@ -1,25 +1,33 @@
 import React from 'react';
 import { StyleSheet, ScrollView, Text, View, Image } from 'react-native';
-import Dayane from '../../assets/images/dayane.jpeg';
-import Ana from '../../assets/images/ana.jpeg';
+import Front from '../../assets/images/front.jpeg';
+import Back from '../../assets/images/back.jpeg';
 import Curso from '../../assets/images/curso.jpeg';
 
 
 export default function Cursos() {
     return(
+      <ScrollView>
         <View style={styles.container}>
-            <Text style={styles.title}>Nossos Cursos</Text>
-            <Text style={styles.paragraph}>Na página de cursos, você nosso amigo surdo irá contar com uma plataforma totalmente adaptada para que você possa ter a melhor experiência e comodidade no seu aprendizado</Text>
+          <Text style={styles.title}>Nossos Cursos</Text>
+          <Text style={styles.paragraph}>Na página de cursos, você nosso amigo surdo irá contar com uma plataforma totalmente adaptada para que você possa ter a melhor experiência e comodidade no seu aprendizado</Text>
 
-            <Text style={styles.title}>Iniciando com HTML5 e CSS3</Text>
-            <Text style={styles.paragraph}>Curso para iniciantes que desejam aprender a criar sites utilizando as tecnologias de HTML5 + CSS3 </Text>
-            <Image source={Curso} style={styles.foto} /> 
+          <Text style={styles.title}>Iniciando com HTML5 e CSS3</Text>
+          <Text style={styles.paragraph}>Curso para iniciantes que desejam aprender a criar sites utilizando as tecnologias de HTML5 + CSS3 </Text>
+          <Image source={Curso} style={styles.foto} /> 
 
-        <View style={styles.footer}>
-          <Text>&copy;Copyright - Todos os direitos reservados.</Text>
-          <Text>Desenvolvido por Squad 2 SP-T2 Recode Pro 2021.</Text>
+          <Text style={styles.title}>O que é frontend?</Text>
+          <Image source={Front} style={styles.fotobanner} /> 
+
+          <Text style={styles.title}>O que é backend?</Text>
+          <Image source={Back} style={styles.fotobanner} /> 
+
+          <View style={styles.footer}>
+            <Text>&copy;Copyright - Todos os direitos reservados.</Text>
+            <Text>Desenvolvido por Squad 2 SP-T2 Recode Pro 2021.</Text>
+          </View>
         </View>
-        </View>
+      </ScrollView>
     )
 }
 
@@ -50,9 +58,17 @@ const styles = StyleSheet.create({
   },
 
   foto: {
-    marginTop: 40,
+    marginTop: 10,
+    marginBottom: 30,
     width: 310,
     height: 180,
+  },
+
+  fotobanner: {
+    marginTop:10,
+    marginBottom: 30,
+    width: 310,
+    height: 450,
   },
 
   footer: {
