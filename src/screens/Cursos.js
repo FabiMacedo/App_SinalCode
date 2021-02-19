@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, ScrollView, Text, View, Image } from 'react-native';
 import Dayane from '../../assets/images/dayane.jpeg';
 import Ana from '../../assets/images/ana.jpeg';
-import Curso from '../../assets/images/curso.jpg';
+import Curso from '../../assets/images/curso.jpeg';
 
 
 export default function Cursos() {
@@ -51,15 +51,16 @@ const styles = StyleSheet.create({
 
   foto: {
     marginTop: 40,
-    width: 300,
+    width: 310,
     height: 180,
   },
 
   footer: {
-    marginTop: 40,
+    marginTop: 120,
     fontWeight: '500',
     alignItems: 'center',
     color: '#666666',
+    marginBottom: 0,
   },
 
 });
