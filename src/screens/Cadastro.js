@@ -55,14 +55,14 @@ const styles = StyleSheet.create({
   },
 
   text: {
-    color: '#fe6e15',
+    color: '#666666',
     fontSize: 18,
     marginTop: 20,
     fontWeight: 'bold',
   },
 
   textbtn: {
-    color: 'white',
+    color: '#fff',
     fontSize: 15
   },
 

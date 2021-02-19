@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, ScrollView, StatusBar, Image, TextInput, TouchableOpacity } from 'react-native';
-import Logo from '../../assets/images/logo.png';
+import Logo from '../../assets/images/logo.jpg';
 import Alan from '../../assets/images/alan.jpeg'; 
 import Ari from '../../assets/images/ariane.jpeg'; 
 import Esdras from '../../assets/images/esdras.jpeg'; 
@@ -69,8 +69,8 @@ const styles = StyleSheet.create({
   },
 
   logo : {
-    width: 400,
-    height: 200,
+    width: 300,
+    height: 150,
   },
 
   foto: {
@@ -93,11 +93,12 @@ const styles = StyleSheet.create({
     color: '#fe6e15',
     fontSize: 18,
     marginTop: 20,
-    fontWeight: 'bold',
+    fontWeight: '900',
+    shadowColor: '#fe6e15',
   },
 
   paragraph: {
-    color: '#000',
+    color: '#666666',
     fontSize: 16,
     fontWeight: '500',
     textAlign: 'justify',

@@ -9,15 +9,17 @@ export default function Colaboradores() {
         <ScrollView>
         <View style={styles.container}>
             <Text style={styles.title}>Nossos Colaboradores</Text>
-            <Text style={styles.paragraph}>Esta página dedicamos aos nossos colaboradores. Pessoas que acreditam no projeto SinalCode e junto com o resto da equipe trabalha para oferecer o que há de melhor para nossos usuários.</Text>
+            <Text style={styles.paragraph}>Esta página dedicamos aos nossos colaboradores. Pessoas que acreditam no projeto SinalCode e junto com o resto da equipe trabalham para oferecer o que há de melhor para nossos usuários.</Text>
 
             <Text style={styles.title}>Nossas Voluntárias</Text>
 
             <Image source={Dayane} style={styles.foto} /> 
-            <Text style={styles.paragraph}>Dayane Karoline Rodrigues</Text>
+            <Text style={styles.title}>Dayane Karoline Rodrigues</Text>
+            <Text style={styles.paragraph}>Graduada em Fonoaudiologia com aprimoramento em linguagem, possui conhecimento em libras através de cursos e contato com a comunidade Surda e intérpretes.</Text>
 
             <Image source={Ana} style={styles.foto} /> 
-            <Text style={styles.paragraph}>Ana Paula Koszt</Text>
+            <Text style={styles.title}>Ana Paula Koszt</Text>
+            <Text style={styles.paragraph}>Graduada em Pedagogia e Pós graduada em educação especial, é professora de libras na escola PRONATEC SP, voluntária no centro de educação para Surdos em Rio Branco e agente de inclusão escolar no município de Barueri.</Text>
         
     
 
@@ -43,11 +45,12 @@ const styles = StyleSheet.create({
     color: '#fe6e15',
     fontSize: 18,
     marginTop: 20,
-    fontWeight: 'bold',
+    fontWeight: '900',
+    shadowColor: '#fe6e15',
   },
 
    paragraph: {
-    color: '#000',
+    color: '#666666',
     fontSize: 16,
     fontWeight: '500',
     textAlign: 'justify',
@@ -67,6 +70,7 @@ const styles = StyleSheet.create({
     marginTop: 40,
     fontWeight: '500',
     alignItems: 'center',
+    color: '#666666',
   },
 
 });
